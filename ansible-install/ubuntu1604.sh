@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+
+# can be used with:
 # * ubuntu 16.04
 # * linux mint 18.*
 # * debian 9.*
