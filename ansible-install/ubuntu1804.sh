@@ -4,7 +4,7 @@
 # * ubuntu bionic
 # * linux mint tara
 
-if which ansible >/dev/null; then
+if ansible --version >/dev/null 2>&1; then
     echo "Upgrading ansible"
     apt-get --only-upgrade install -y ansible
     exit 0

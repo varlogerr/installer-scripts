@@ -5,7 +5,7 @@
 # * linux mint 18.*
 # * debian 9.*
 
-if which git >/dev/null; then
+if git --version >/dev/null 2>&1; then
     echo "Upgrading git"
     apt-get --only-upgrade install -y git
     exit 0

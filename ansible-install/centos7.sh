@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if which ansible >/dev/null; then
+if ansible --version >/dev/null 2>&1; then
     echo "Upgrading ansible"
     yum update -y ansible
     exit 0
